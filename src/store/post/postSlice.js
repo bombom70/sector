@@ -37,6 +37,7 @@ export const postSlice = createSlice({
         } else if (p.body.includes(payload)) {
           return p;
         }
+        return null;
       });
       state.searchPosts = filteredPosts;
     }
