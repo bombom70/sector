@@ -1,0 +1,76 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.search {
+  background: #5A5C66;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.search__input {
+  background: none;
+  border: none;
+  color: white;
+}
+
+.search__input::placeholder {
+  color: #B2B7BF;
+}
+
+.search__input:focus {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+
+.search__btn {
+  background: none;
+  border: none;
+}
+
+.th-bg-black {
+  background: #474955 !important;
+  color: white !important;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.btn-nav {
+  background: none;
+  border: none;
+  color: #474955;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 137.687%;
+}
+
+.nav-pages {
+  color: #474955;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 137.687%;
+}
+
+.nav-pages-current {
+  color: #7EBC3C;
+}
+
+@media (max-width: 400px) {
+  .nav-pages {
+    width: 100%;
+    justify-content: center;
+    order: 1;
+  }
+
+  .mob-order-2 {
+    order: 2;
+  }
+
+  .mob-order-3 {
+    order: 3;
+  }
+}
